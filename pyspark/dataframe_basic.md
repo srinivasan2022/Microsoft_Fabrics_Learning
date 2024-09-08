@@ -25,6 +25,7 @@ df = spark.createDataFrame(data=data , schema=columns)
 ```
 df.printSchema()
 ```
+<pre>
 root
  |-- Country: string (nullable = true)
  |-- Code: string (nullable = true)
@@ -32,3 +33,4 @@ root
  |-- Sliver: long (nullable = true)
  |-- Bronze: long (nullable = true)
  |-- Total: long (nullable = true)
+ </pre>
