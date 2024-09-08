@@ -166,6 +166,8 @@ root
 +-------------+----+----+------+------+-----+
 </pre>
 
+### Display the first few rows of dataframe
+
 ```
 df.show(2)
 ```
@@ -178,6 +180,8 @@ df.show(2)
 +-------------+----+----+------+------+-----+
 </pre>
 
+> display(df) --> display the dataframe in table format <br>
 > display(df.head(2)) --> display the first two rows <br>
 > display(df.tail(2)) --> display the last two rows
+
  
