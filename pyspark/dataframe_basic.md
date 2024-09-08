@@ -178,6 +178,6 @@ df.show(2)
 +-------------+----+----+------+------+-----+
 </pre>
 
-> display(df.head(2)) --> display the first two rows
+> display(df.head(2)) --> display the first two rows <br>
 > display(df.tail(2)) --> display the last two rows
  
